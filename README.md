@@ -1,1 +1,1 @@
-# AICTE_water_quality_prediction
+# AICTE_Water-Quality-Prediction
