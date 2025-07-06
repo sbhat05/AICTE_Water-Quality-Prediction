@@ -36,9 +36,12 @@ MultiOutputRegressor wrapped around:
 - HistGradientBoostingRegressor
 - LightGBMRegressor
 - XGBoostRegressor
-ExtraTreesRegressor
-Ensemble model: average of:
-MultiOutputRegresor wrapped around CatBoostRegressor + MultiOutputRegressor wrapped around HistGradientBoostingRegressor
+
+ExtraTreesRegressor (directly supports multi-output)
+
+Ensemble model: average of predictions from:
+- MultiOutputRegressor(CatBoostRegressor)
+- MultiOutputRegressor(HistGradientBoostingRegressor)
 
 ## Model Performance
 Model was evaluated using
