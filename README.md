@@ -49,12 +49,12 @@ Model was evaluated using
 The final model was deployed using Streamlit, providing an interactive interface:
 - Select station ID
 - Enter year & month
-Instantly view predicted pollutant levels
+- Instantly view predicted pollutant levels
 
 ## Repository Contents
-WaterQualityPrediction.ipynb : Data preprocessing, feature engineering, model training & evaluation
-app.py : Streamlit app for deployment
-Saved model files: model_cb.pkl, model_hgb.pkl
-Saved features list: model_columns.pkl
-Pollutants list: pollutants_list.pkl
+- WaterQualityPrediction.ipynb : Data preprocessing, feature engineering, model training & evaluation
+- app.py : Streamlit app for deployment
+- Saved model files: model_cb.pkl, model_hgb.pkl
+- Saved features list: model_columns.pkl
+- Pollutants list: pollutants_list.pkl
 
