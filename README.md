@@ -49,7 +49,7 @@ Model was evaluated using
 - R2 Score
 
 ## Deployment
-The final model was deployed using Streamlit, providing an interactive interface:
+The final model (ensemble) was deployed using Streamlit, providing an interactive interface:
 - Select station ID
 - Enter year & month
 - Instantly view predicted pollutant levels
